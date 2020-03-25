@@ -58,7 +58,7 @@ namespace Cw3.Controllers
         {
             List<Enrollment> enrollments = new List<Enrollment>();
 
-            using (var con = new SqlConnection("Data Source=db-mssql;Initial Catalog=s18728;Integrated Security=True"))
+            using (var con = new SqlConnection("Data Source=db-mssql;Initial Catalog=s18803;Integrated Security=True"))
             using (var com = new SqlCommand())
             {
                 com.Connection = con;
